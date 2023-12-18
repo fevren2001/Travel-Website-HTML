@@ -435,7 +435,7 @@ th{
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
     article#transportations figure{
         position: static;
         
