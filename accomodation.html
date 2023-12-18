@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Your Travel Guide</title>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<script src="../scripts/styleswitcher.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<nav class="screenreader">
+		<a href="#content">Skip to Main content</a>
+	</nav>
+
+	<header>
+		<h1>Welcome</h1>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="where_to_go.html">WhereToGo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="accomodation.html">Accommodation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="transport.html">Transportation</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="breadcrumbs">
+			<a href="index.html">Home Page</a> > Accommodation
+		</div>
+	</header>
+	<main>
+		<article id="accommodation">
+			<h2>Accommodation</h2>
+			<p>Choose your accommodation type to experience a comfortable stay.</p>
+
+			<div class="button-container">
+				<!-- Button 5  -->
+				<figure>
+					<img src="../images/budget.jpg" alt="a poorly lit cheap hostel room with 4 bunk beds">
+					<figcaption>
+						<button class="image-button button5" onclick="toggleInfo(5)">Button 5</button>
+						<div class="button-info" id="info5">
+							<p>Cheap hostels are budget-friendly accommodations known for dormitory-style rooms, shared facilities, and a social atmosphere. Ideal for budget travelers, they offer affordability, communal spaces, and often have central locations. Private rooms may be available for those seeking more privacy. With flexible booking options, hostels cater to diverse travel needs, making them popular among backpackers and those exploring new destinations on a budget.</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../images/comfort.jpg" alt="Comfortable looking bed in a rich room with rich light coming from outside in a spacious room">
+					<figcaption>
+						<button class="image-button button6" onclick="toggleInfo(6)">Button 5</button>
+						<div class="button-info" id="info6">
+							<p>Medium-budget accommodations offer a balance between affordability and comfort. These lodgings provide private or shared rooms with enhanced amenities compared to budget hostels. Guests can expect more privacy and a relaxed atmosphere. While not as economical as budget options, medium-budget accommodations often feature central locations and additional conveniences, making them suitable for travelers seeking a comfortable stay without a high price tag. They cater to a diverse range of travelers who prioritize a reasonable budget while desiring a more refined lodging experience.</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../images/luxury.jpg" alt="Expensive looking beach beds right next to a perfect blue pool with palm trees all around">
+					<figcaption>
+						<button class="image-button button7" onclick="toggleInfo(7)">Button 7</button>
+						<div class="button-info" id="info7">
+							<p>Luxury hotels epitomize opulence and premium services, providing upscale accommodations for discerning travelers. These establishments offer luxurious amenities, high-end furnishings, and personalized services to ensure a lavish experience. Guests can expect spacious, well-appointed rooms, fine dining, spa facilities, and top-notch customer service. Luxury hotels often boast prime locations in prestigious areas, offering breathtaking views and exclusive access to amenities. With meticulous attention to detail, these establishments cater to travelers seeking an indulgent and sophisticated stay, providing a level of comfort and service that exceeds standard expectations.</p>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+		</article>
+	</main>
+	<footer>
+		<p><a href="https://www.facebook.com/">Facebook</a></p>
+		<p><a href="https://www.instagram.com/">Instagram</a></p>
+		<p><a href="https://twitter.com/">Twitter</a></p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Where To GO?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <script src="../scripts/styleswitcher.js"></script>
+
+    <link rel="icon" href="media/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Where To GO?</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="where_to_go.html">WhereToGo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="accomodation.html">Accommodation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="transport.html">Transportation</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div id="breadcrumbs">
+            <a href="index.html">Home Page</a> > Where To Go
+        </div>
+        
+    </header>
+    <main>
+        <div id="introduction">
+            <article id="itineraries">
+                <h2>Some Places People Visited This Year</h2>
+                <table>
+                    <caption>
+                        <strong>Itineraries</strong>
+                        <details>
+                            <summary>Summary</summary>
+                            <p>In this table you can find the itineraries that were effectued with the help of this
+                                website.
+                                The table has 3 columns, City, Budget and Duration </p>
+                        </details>
+                    </caption>
+                    <tr>
+                        <th scope="col">City</th>
+                        <th scope="col">Budget</th>
+                        <th scope="col">Duration</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Budapest</th>
+                        <td>200$</td>
+                        <td>1 Week</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Madrid</th>
+                        <td>100$</td>
+                        <td>2 Days</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Istanbul</th>
+                        <td>220$</td>
+                        <td>2 Weeks</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">London</th>
+                        <td>700$</td>
+                        <td>1 Month</td>
+                    </tr>
+                </table>
+            </article>
+        </div>
+        <h3>What are you waiting for? Have any questions in mind? Fill the following form</h3>
+
+        <form action="mailto:fevren2001@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <label for="name"><strong>Name</strong></label><br>
+                <input type="text" name="name" id="name" maxlength="30" size="60" placeholder="Kevin"><br>
+                <label for="where_to_go"><strong>Where you want to go?:</strong></label><br>
+                <input type="text" name="where_to_go" id="where_to_go" size="60" maxlength="30" placeholder="Budapest"><br>
+                <label for="budget"><strong>Budget:</strong></label><br>
+                <input type="number" name="budget" id="budget" min="0" placeholder="2800"><br>
+                <label for="questions"><strong>Questions</strong></label><br>
+                <textarea cols="60" rows="10" name="questions" id="questions" maxlength="700"
+                    placeholder="I would like to ask about..."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Transportation Method</legend>
+                <input type="radio" name="rating" id="v1" value="1">
+                <label for="v1">Car</label>
+                <input type="radio" name="rating" id="v2" value="2">
+                <label for="v2">Bus</label>
+                <input type="radio" name="rating" id="v3" value="3">
+                <label for="v3">Train</label>
+                <input type="radio" name="rating" id="v4" value="4">
+                <label for="v4">Plane</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="email"><strong>E-mail address</strong></label><br>
+                <input type="email" name="email" id="email" size="60"><br>
+                <input type="checkbox" name="policy" id="policy" value="yes">
+                <label for="policy">I'd like to subscribe to a newsletter</label>
+
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+        <p><a href="https://www.facebook.com/">Facebook</a></p>
+        <p><a href="https://www.instagram.com/">Instagram</a></p>
+        <p><a href="https://twitter.com/">Twitter</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

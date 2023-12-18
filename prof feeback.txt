@@ -1,0 +1,12 @@
+set all inputs in the form as maxlength="30" some value
+DONE, should I change max value of budget?
+
+
+change nav bar with 
+
+check prints, and delete those not important
+
+
+break points
+
+increase width and height of the table
