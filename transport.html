@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Your Travel Guide</title>
-    <meta charset="utf-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="css/base.css" rel="stylesheet" type="text/css">
-    <script src="../scripts/toggle.js">
-        </script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transportation</title>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<script src="../scripts/toggle.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,47 +17,43 @@
     </nav>
 
     <header>
-
-        <h1>Welcome</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="where_to_go.html">WhereToGo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="accomodation.html">Accommodation</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="transport.html">Transportation</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <!-- <nav>
-            <a href="index.html" title="Choose where you want to go">Homepage</a>
-            <a href="where_to_go.html" title="Choose where you want to go">WhereToGo</a>
-            <a href="accomodation.html" title="Choose where to sleep">Accomodation</a>
-            <a href="transport.html" class="current-page" title="Choose how you go">Transportation</a>
-        </nav> -->
-        <div id="breadcrumbs">
-            <a href="index.html">Home Page</a> > Transportation
-        </div>
-    </header>
+		<h1  class="text-center text-sm-start text-md-center text-lg-center">Welcome</h1>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="where_to_go.html">WhereToGo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="accomodation.html"> Accommodation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="transport.html">Transportation</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="breadcrumbs">
+			<a href="index.html">Home Page</a> > Transportation
+		</div>
+	</header>
 <main>
-    <article id="transportations">
+    <article id="transportations" >
         <h2>Transportations</h2>
         <p>Please hover over your transportation type to get more information about it</p>
+        <div class="d-sm-flex flex-wrap">
 
-        <figure class="d-sm-block"> 
+        
+        <figure class="mb-4"> 
             <a href="../images/car.jpg" target="_blank">
                 <img src="../images/car_thumb.jpg" alt="a woman leaning out of a wolkswagen polo car with her arms wide open breathing in the fresh air in fields " class="thumbnail">
             </a>
@@ -68,7 +64,7 @@
         </figure>
 
 
-        <figure class="d-sm-block">
+        <figure class="mb-4">
             <img src="../images/plane.jpg" alt="a white plane flying through the sky">
             <figcaption>
                 <strong>Plane:</strong> Soar through the skies and reach your destination quickly, making long distances
@@ -76,7 +72,7 @@
             </figcaption>
         </figure>
 
-        <figure>
+        <figure class="mb-4">
             <img src="../images/train.jpg" alt="a red passanger train going through romanian mountains">
             <figcaption>
                 <strong>Train:</strong> Enjoy a relaxed journey with scenic views, comfortable seating, and the rhythmic
@@ -84,7 +80,7 @@
             </figcaption>
         </figure>
 
-        <figure>
+        <figure class="mb-4">
             <a href="../images/bus.jpg" target="_blank">
                 <img src="../images/bus_thumb.jpg" alt="a bus waiting in front of the Budapest airport to take the landing passangers to the city" class="thumbnail">
             </a>
@@ -93,6 +89,7 @@
                 along the way.
             </figcaption>
         </figure>
+    </div>
     </article>
 </main>
     <footer>
@@ -100,8 +97,6 @@
         <p><a href="https://www.instagram.com/">Instagram</a></p>
         <p><a href="https://twitter.com/">Twitter</a></p>
     </footer>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

@@ -419,6 +419,10 @@ td{
 th{
     background-color: yellow;
 }
+
+.navbar {
+    z-index: 1000; /* Adjust the value based on your needs */
+}
 @media print{
     article#transportations figure figcaption {
         opacity: 1;
