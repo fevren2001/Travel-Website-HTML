@@ -326,25 +326,25 @@ article#transportations figure:hover {
 
 article#transportations figure:nth-of-type(1) {
     bottom: 50px;
-    left: 70px;
+    left: 100px;
     transform: rotate(-4deg);
 }
 
 article#transportations figure:nth-of-type(2) {
     bottom: 70px;
-    left: 410px;
+    left: 440px;
     transform: rotate(-7deg);
 }
 
 article#transportations figure:nth-of-type(3) {
     bottom: 320px;
-    left: 70px;
+    left: 100px;
     transform: rotate(7deg);
 }
 
 article#transportations figure:nth-of-type(4) {
     bottom: 320px;
-    left: 410px;
+    left: 440px;
     transform: rotate(-10deg);
 }
 
@@ -408,7 +408,7 @@ body.large {
 }
 
 article{
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 tr{
     background-color: #fd95e8;
