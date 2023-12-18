@@ -438,7 +438,12 @@ th{
 @media (max-width: 576px) {
     article#transportations figure{
         position: static;
+        
     }
+    article#transportations {
+        padding-bottom: 30px
+    }
+    
 }
 
 
